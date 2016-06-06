@@ -9,5 +9,5 @@ RUN apt-get -y install apt-transport-https
 # Start Intalling R ...
 RUN sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 RUN apt-get -y install r-base --force-yes
-RUN apt-get -y install r-base-dev --force-yes
+RUN apt-get -y install r-base-dev --force-yes 
 RUN apt-get -y install r-cran-boot r-cran-class r-cran-cluster r-cran-codetools r-cran-foreign r-cran-kernsmooth r-cran-lattice r-cran-mass r-cran-matrix r-cran-mgcv r-cran-nlme r-cran-nnet r-cran-rpart r-cran-spatial r-cran-survival
